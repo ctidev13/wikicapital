@@ -1,4 +1,10 @@
+/*
 
+DREAM PULSE
+
+https://templatemo.com/tm-536-dream-pulse
+
+*/
 
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -6,16 +12,38 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   color: #707172;
-  background-color: #fff;
+
 }
 
 p {
   line-height: 2;
-  font-size: 16px;
-}
+  font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 1px;
 
+}
+.logo{
+  margin: 30px;
+
+}
+.service-img{
+  margin-top:10px;
+
+}
 a {
   transition: all 0.3s ease;
+}
+h3{
+    color: #33627f;
+    margin: 10px 0;
+  }
+h4{
+    color: #48aff0;
+    margin: 0;
+    font-size: 20px;
+  }
+  .mb-5, .my-5 {
+    margin-bottom: 10px!important; 
 }
 
 .container-fluid {
@@ -27,38 +55,21 @@ a {
   font-size: 0.95rem;
 }
 
-.h2 {
-  color: #29536d;
-  padding: 25px 10px 10px 10px;
+.tm-color-primary {
+  color: #33627f;
+  margin: 40px 0;
 }
-.h3{
-  color: #519ac7;
-  font-size: 19px;
-  padding: 15px 0;
-}
- h6{
-   margin: 25px 0 0 0;
-   font-size: 15px;
- }
+
 .tm-color-gray {
   color: #333;
 }
-.service-img{
-  vertical-align: middle;
-    border-style: none;
-    position: relative;
 
-}
-.mb-5, .my-5 {
-  margin-bottom: 13px!important;
-}
 .tm-bg-black-transparent {
-  background-color: #c5edffb2;
+  background-color: rgba(202, 239, 254, 0.5);
 }
 
 .tm-bg-white-transparent {
-  background-color:#c5edffb2;
-  border: 1px solid white;
+  background-color:  rgba(202, 239, 254, 0.7);
 }
 
 .tm-intro {
@@ -80,6 +91,7 @@ a {
 
 .tm-section {
   display: flex;
+  position: flex;
   align-items: center;
   height: auto;
   max-width: 1275px;
@@ -102,7 +114,7 @@ a {
   min-height: 160px;
   color: white;
   text-align: center;
-  margin: 60px auto;
+  margin: 70px 10px 20px;
 }
 
 .tm-double-border-1,
@@ -159,14 +171,14 @@ a {
   justify-content: center;
 }
 
-.services-section {
+.tm-section-wrap {
   width: calc(100% - 400px);
   margin-left: auto;
   margin-right: 0;
 }
 
 .tm-main-nav > li > a {
-  color: #0d2033;
+  color: white;
 }
 
 .tm-main-nav {
@@ -234,7 +246,7 @@ a {
 
 .tm-social-link:hover,
 .tm-social-link:focus {
-  background-color: #069;
+  background-color: #33627f;
   color: white;
 }
 
@@ -248,25 +260,10 @@ a {
 }
 
 .tm-section-half {
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
-.tm-section-icon {
-  color: #369;
-  width: 120px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-/* Our Work */
-
-.tm-gallery-wrap {
-  max-width: 1040px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 @media (max-width: 1600px) {
   .tm-gallery-wrap {
@@ -401,7 +398,7 @@ a {
 /*---------------*/
 
 figure.effect-bubba {
-  background: #069;
+  background: #33627f;
 }
 
 figure.effect-bubba img {
@@ -522,19 +519,26 @@ figure.effect-bubba:hover p {
 .form-group {
   margin-bottom: 40px;
 }
-
+.form-control:focus {
+  box-shadow:  2px 2px 2px 1px rgba(66, 66, 66, 0.459);;
+  color: #fff;
+  background-color: #17334a;
+  outline: none;
+}
 .tm-btn-primary {
-  color: #ffffff;
-  border-bottom: 1px solid #cdcecf;
-  padding: 10px 18px;
-  position: relative;
-  background-color: #0d2033;
+  color: #f8f9fa;
+    background-color:#17334a;
+    padding: 10px 18px;
+    width: 305px;
+    position: relative;
+    border-radius: 3px;
 }
 
 .tm-btn-primary:hover,
 .tm-btn-primary:active {
   color: #fff;
-  background-color: #999;
+  background-color: #39678d;
+  border-radius: 10px;
 }
 
 .tm-btn-primary:after {
@@ -573,7 +577,7 @@ figure.effect-bubba:hover p {
     margin: 5px;
   }
 
-  .services-section {
+  .tm-section-wrap {
     width: 70%;
   }
 
@@ -589,7 +593,7 @@ figure.effect-bubba:hover p {
 
 @media (max-width: 991px) {
   .tm-bg-black-transparent {
-    background-color: rgba(153, 209, 255, 0.3.5);
+    background-color: #bde6fa;
   }
 
   .tm-brand-box {
@@ -627,7 +631,7 @@ figure.effect-bubba:hover p {
     position: fixed;
     left: 0;
     top: 0;
-    background-color: rgba(153, 209, 255, 0.3.5);
+    background-color: #3085a3;
     color: white;
     padding: 10px 15px;
     transition: all 0.3s ease;
@@ -649,7 +653,7 @@ figure.effect-bubba:hover p {
     left: 250px;
   }
 
-  .services-section {
+  .tm-section-wrap {
     width: 100%;
   }
 
@@ -685,4 +689,8 @@ figure.effect-bubba:hover p {
   .tm-box-pad {
     padding: 50px 30px;
   }
+}
+::selection {
+  background: rgb(79, 115, 182);
+  color: #fff;
 }

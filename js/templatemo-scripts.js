@@ -3,7 +3,7 @@ $(document).ready(function() {
   $("#tmMainNav").singlePageNav();
 
   // Carousel in Our Work section
-  $(".gallery").slick({
+  $(".tm-gallery").slick({
     dots: true,
     infinite: false,
     arrows: false,
@@ -60,14 +60,14 @@ $(document).ready(function() {
   });
 
   // Image Pop Up
-  $(".gallery").magnificPopup({
+  $(".tm-gallery").magnificPopup({
     delegate: "a", // child items selector, by clicking on it popup will open
     type: "image",
     gallery: { enabled: true }
   });
 
   $(".navbar-toggler").on("click", function(e) {
-    $(".sidebar").toggleClass("show");
+    $(".tm-sidebar").toggleClass("show");
     e.stopPropagation();
   });
 
@@ -75,11 +75,11 @@ $(document).ready(function() {
     var sidebar = document.getElementById("tmSidebar");
 
     if (!sidebar.contains(e.target)) {
-      $(".sidebar").removeClass("show");
+      $(".tm-sidebar").removeClass("show");
     }
   });
 
   $("#tmMainNav .nav-link").click(function(e) {
-    $(".sidebar").removeClass("show");
+    $(".tm-sidebar").removeClass("show");
   });
 });
