@@ -29,7 +29,12 @@ a {
 
 .h2 {
   color: #29536d;
-  padding: 25px 10px 10px 10px
+  padding: 25px 10px 10px 10px;
+}
+.h3{
+  color: #519ac7;
+  font-size: 19px;
+  padding: 15px 0;
 }
  h6{
    margin: 25px 0 0 0;
@@ -38,8 +43,14 @@ a {
 .tm-color-gray {
   color: #333;
 }
+.service-img{
+  vertical-align: middle;
+    border-style: none;
+    position: relative;
+
+}
 .mb-5, .my-5 {
-  margin-bottom: rem!important;
+  margin-bottom: 13px!important;
 }
 .tm-bg-black-transparent {
   background-color: #c5edffb2;
@@ -513,10 +524,11 @@ figure.effect-bubba:hover p {
 }
 
 .tm-btn-primary {
-  color: #707172;
+  color: #ffffff;
   border-bottom: 1px solid #cdcecf;
   padding: 10px 18px;
   position: relative;
+  background-color: #0d2033;
 }
 
 .tm-btn-primary:hover,
