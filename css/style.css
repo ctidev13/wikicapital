@@ -300,6 +300,9 @@ h4{
   border-radius: 3px;
 
 }
+.service-img{
+  height: 365px;
+}
 }
 
 @media (max-width: 1200px) {
