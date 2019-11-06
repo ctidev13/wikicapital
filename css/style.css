@@ -327,6 +327,10 @@ h4{
     border-radius: 3px;
   
   }
+  .service-img1 {
+    margin: 20px 0;
+    height: 458px;
+}
 }
 
 @media (max-width: 767px) {
@@ -340,7 +344,10 @@ h4{
     max-width: 260px;
   }
 }
-
+.service-img1 {
+  margin: 20px 0;
+  height: 50;
+}
 .tm-gallery-item {
   padding-left: 10px;
   padding-right: 10px;
@@ -614,7 +621,10 @@ figure.effect-bubba:hover p {
   .cin{
     height: 93px;
     border-radius: 3px;
-  
+    }
+    .service-img1 {
+      margin: 20px 0;
+      height: 365px;
   }
 
 
@@ -678,7 +688,10 @@ figure.effect-bubba:hover p {
   .tm-bg-black-transparent {
     background-color: #bde6fa;
   }
-
+  .service-img1 {
+    margin: 20px 0;
+    height: 585px;
+}
   .tm-brand-box {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -759,6 +772,10 @@ figure.effect-bubba:hover p {
     border-radius: 3px;
   
   }
+  .service-img1 {
+    margin: 20px 0;
+    height: 415px;
+}
   .tm-color-primary {
     color: #33627f;
     margin: 40px 20px;
