@@ -10,7 +10,7 @@ body {
 #rss01{
   width: auto;
   border-radius:8px;
-  padding:10px;
+  padding: 10px 0;
   margin-bottom:1em;
   margin:6px 0 12px 0;
   font-size:0.8em;
@@ -44,9 +44,11 @@ p {
 }
 .service-img{
   margin: 20px 0;
-  height: auto;
 
-}
+  }
+
+
+
 a {
   transition: all 0.3s ease;
 }
@@ -278,7 +280,7 @@ h4{
 }
 
 .tm-section-half {
-  padding: 0 5px;
+  padding: 0;
 }
 
 
