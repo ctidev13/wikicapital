@@ -40,7 +40,7 @@ p {
 }
 .service-img {
   margin: 20px 0;
-  height: 300px;
+  height: auto;
 }
 .service-img{
   margin: 20px 0;
@@ -76,7 +76,7 @@ h4{
 
 .tm-color-primary {
   color: #33627f;
-  margin: 40px 0;
+  margin: 40px 400px;
 }
 
 .tm-color-gray {
@@ -115,6 +115,7 @@ h4{
   height: auto;
   max-width: 1275px;
   padding: 0 60px;
+  margin: auto;
 }
 
 #intro {
@@ -289,11 +290,25 @@ h4{
   .tm-gallery-wrap {
     max-width: 780px;
   }
+  .tm-color-primary {
+    color: #33627f;
+    margin: 40px 30px;
+  
+}
+.cin{
+  height: 50px;
+  border-radius: 3px;
+
+}
 }
 
 @media (max-width: 1200px) {
   
+  .cin{
+    height: 50px;
+    border-radius: 3px;
   
+  }
   .service-img {
     margin: 20px 0;
     height: auto;
@@ -303,6 +318,11 @@ h4{
 @media (max-width: 991px) {
   .tm-gallery-wrap {
     max-width: 780px;
+  }
+  .cin{
+    height: 50px;
+    border-radius: 3px;
+  
   }
 }
 
@@ -587,7 +607,33 @@ figure.effect-bubba:hover p {
   outline: none;
   box-shadow: none;
 }
+@media (max-width: 3000px) {
+  .cin{
+    height: 93px;
+    border-radius: 3px;
+  
+  }
 
+
+}
+@media (max-width: 2330px){
+  .cin{
+    height: 40px;
+    border-radius: 3px;
+  
+  }
+}
+@media (max-width: 1800px){
+  .cin{
+    height: 60px;
+    border-radius: 3px;
+  
+  }
+  .tm-color-primary {
+    color: #33627f;
+    margin: 40px 100px;
+}
+}
 @media (max-width: 1600px) {
   .tm-sidebar {
     width: 30%;
@@ -596,6 +642,7 @@ figure.effect-bubba:hover p {
     padding-right: 30px;
   }
 
+  
   .tm-social-link {
     margin: 5px;
   }
@@ -613,7 +660,17 @@ figure.effect-bubba:hover p {
 .navbar-toggler {
   display: none;
 }
-
+@media (max-width: 1462px){
+  .cin{
+    height: 40px;
+    border-radius: 3px;
+  
+  }
+  .tm-color-primary {
+    color: #33627f;
+    margin: 40px 30px;
+}
+}
 @media (max-width: 991px) {
   .tm-bg-black-transparent {
     background-color: #bde6fa;
@@ -694,12 +751,31 @@ figure.effect-bubba:hover p {
   .tm-section {
     padding: 30px;
   }
+  .cin{
+    height: 40px;
+    border-radius: 3px;
+  
+  }
+  .tm-color-primary {
+    color: #33627f;
+    margin: 40px 20px;
+}
 }
 
 @media (max-width: 554px) {
   .tm-section {
     padding: 15px;
   }
+  .cin{
+    display: none;
+    height: 20px;
+    border-radius: 3px;
+  
+  }
+  .tm-color-primary {
+    color: #33627f;
+    margin: 40px 0px;
+}
 }
 
 @media (max-width: 383px) {
