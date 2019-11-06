@@ -44,7 +44,7 @@ p {
 }
 .service-img{
   margin: 20px 0;
-  height: 310px;
+  height: auto;
 
 }
 a {
